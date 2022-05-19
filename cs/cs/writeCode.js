@@ -71,6 +71,6 @@ function longestWord(string) {
             word = str;
         }
     });
-    return word;
+    return word.length;
 }
 console.log(longestWord("A riddle wrapped up in an enigma"));
